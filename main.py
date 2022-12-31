@@ -383,6 +383,7 @@ class App(customtkinter.CTk):
                 self.frame_info[self.current_screen].configure(fg_color='#343638')
                 self.video_title_label.configure(text='')
 
-
-app = App()
-app.mainloop()
+                
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
